@@ -1,0 +1,7 @@
+<h2>Request</h2> 
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:ns1=&quot;http://www.pininteract.com&quot;&gt;&lt;SOAP-ENV:Header&gt;&lt;ns1:AuthenticationHeader&gt;&lt;ns1:userId&gt;sctelecard&lt;/ns1:userId&gt;&lt;ns1:password&gt;SCtd2014&lt;/ns1:password&gt;&lt;/ns1:AuthenticationHeader&gt;&lt;/SOAP-ENV:Header&gt;&lt;SOAP-ENV:Body&gt;&lt;ns1:GetCarrierInfoByMobileNumber&gt;&lt;ns1:mobile&gt;529991110365&lt;/ns1:mobile&gt;&lt;/ns1:GetCarrierInfoByMobileNumber&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;
+</pre> 
+<h2>Response</h2> 
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;soap:Body&gt;&lt;GetCarrierInfoByMobileNumberResponse xmlns=&quot;http://www.pininteract.com&quot;&gt;&lt;GetCarrierInfoByMobileNumberResult responseCode=&quot;072&quot; responseMessage=&quot;Recharge for this Operator is not supported&quot; /&gt;&lt;/GetCarrierInfoByMobileNumberResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;</pre> 
+

@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>rydtech</ns1:userId><ns1:password>v0n3c@11@!ryd</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:PurchaseRtr2><ns1:skuId>1183</ns1:skuId><ns1:amount>40</ns1:amount><ns1:mobile>16142851343</ns1:mobile><ns1:corelationId></ns1:corelationId><ns1:senderMobile></ns1:senderMobile><ns1:storeId></ns1:storeId></ns1:PurchaseRtr2></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><PurchaseRtr2Response xmlns="http://www.pininteract.com"><orderResponse version="1.0" responseCode="000" xmlns="urn:pininteract.com"><invoice invoiceNumber="56811385" transactionDateTime="2016-09-01T17:47:56.467" invoiceAmount="38.100" faceValueAmount="40.00" discount="0" fee="0"><cards><card skuId="1183" name="Simple Mobile RTR" faceValue="40.00" /></cards></invoice><topUp localCurrencyAmount="40.00" salesTaxAmount="0.00" localCurrencyAmountExcludingTax="40.00" localCurrencyName="USD" /></orderResponse></PurchaseRtr2Response></soap:Body></soap:Envelope>
+

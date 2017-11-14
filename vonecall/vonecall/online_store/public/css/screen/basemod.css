@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media all
+{
+  body {padding:0; margin:0; width: 100%; height: 100%;}
+
+  #page_margins {position: relative; min-height: 100%; padding-bottom: 50px; background: url(../../images/bg-light.png) center center no-repeat;}
+  #container { width: 1000px; background: #fff url(../../images/bg-bottom.png) 0 100% no-repeat; margin: 3px auto; padding-bottom: 40px;  }
+  #page{ width:100%; margin: -6px 0 0; padding: 1px 0 0; background: #fff url(../../images/bg-page.jpg) 0 -1px repeat-x; min-height: 80vh; }  
+
+  #header { width:980px; margin: 0 auto; color: #5c5c5c; padding-top: 11px!important; }
+  #header .w322 {padding: 15px 0 15px 15px;}
+  #nav_top { width:100%; margin: 0 auto; background: #fff url(../../images/bg-x.png) 0 0 repeat-x;}
+
+  #main {width:980px; margin: 15px auto 0; padding: 0; min-height: 450px; overflow: hidden; }
+  .admin  #main{background: none;}
+  #footer { width:100%; background: url(../../images/bg-x.png) 0 -120px repeat-x; height:40px; color: #fff; margin: 10px 0 0 0; position: absolute; bottom: 0; background: #000;}
+  #footer_comment{width:1000px; margin:0 auto 0 auto; }
+  #footer a {color: #fff; background:transparent; font-weight:normal; padding:0 5px}
+  #footer a:focus,
+  #footer a:hover,
+  #footer a:active {color: #58d6ff; background-color: transparent; text-decoration:none;}
+  #footer { padding: 5px 0; height: auto !important;  margin:0; }
+
+  #login #main {background: none;}
+
+}

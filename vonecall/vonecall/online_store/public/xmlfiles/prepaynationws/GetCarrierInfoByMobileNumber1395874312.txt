@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>harbor1</ns1:userId><ns1:password>XCLha2014</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:GetCarrierInfoByMobileNumber><ns1:mobile>50242433713</ns1:mobile></ns1:GetCarrierInfoByMobileNumber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCarrierInfoByMobileNumberResponse xmlns="http://www.pininteract.com"><GetCarrierInfoByMobileNumberResult responseCode="000"><carrier carrierId="94" carrierName="Claro Guatemala" category="Rtr" countryCode="GT" currencyCode="GTQ" productId="94" operator="11" mccCode="704" mncCode="1" denominationType="Variable"><skus><sku skuId="246" productName="Claro Guatemala" denomination="0.01" minAmount="1.00" maxAmount="75.00" discount="12.00" category="Rtr" isSalesTaxCharged="false" exchangeRate="0" bonusAmount="0" currencyCode="GTQ" carrierName="Claro Guatemala" countryCode="GT" localPhoneNumberLength="8" internationalCodes="502" allowDecimal="false" /></skus></carrier></GetCarrierInfoByMobileNumberResult></GetCarrierInfoByMobileNumberResponse></soap:Body></soap:Envelope>
+

@@ -1,0 +1,7 @@
+{
+  "name": "iDDNA",
+  "version": "3.0.0",
+  "description": "API document for accessing various iDDNA web services",
+  "title": "iDDNA",
+  "url" : "http://develop.idna.works/wp-json/v3" 
+}

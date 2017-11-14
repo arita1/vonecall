@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>rydtech</ns1:userId><ns1:password>v0n3c@11@!ryd</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:PurchasePin><ns1:skuId>2106</ns1:skuId><ns1:quantity>1</ns1:quantity><ns1:corelationId>9715065281</ns1:corelationId></ns1:PurchasePin></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><PurchasePinResponse xmlns="http://www.pininteract.com"><orderResponse version="1.0" responseCode="000" xmlns="urn:pininteract.com"><invoice invoiceNumber="54304189" transactionDateTime="2016-07-06T04:06:18.04" invoiceAmount="19.000" faceValueAmount="20.00" discount="0" fee="0"><cards><card skuId="2106" name="Simple Mobile PIN-Refill Only" faceValue="20.00"><pins><pin pinNumber="193751360955351" controlNumber="5723792581" /></pins></card></cards></invoice></orderResponse></PurchasePinResponse></soap:Body></soap:Envelope>
+

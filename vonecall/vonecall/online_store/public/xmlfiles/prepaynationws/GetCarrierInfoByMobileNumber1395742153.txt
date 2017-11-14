@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>harbor1</ns1:userId><ns1:password>XCLha2014</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:GetCarrierInfoByMobileNumber><ns1:mobile>52fdfdafdad</ns1:mobile></ns1:GetCarrierInfoByMobileNumber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCarrierInfoByMobileNumberResponse xmlns="http://www.pininteract.com"><GetCarrierInfoByMobileNumberResult responseCode="071" responseMessage="The Operator for Mobile Number 52fdfdafdad could not be determined. Please check the number and try again" /></GetCarrierInfoByMobileNumberResponse></soap:Body></soap:Envelope>
+

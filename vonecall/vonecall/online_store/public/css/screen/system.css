@@ -1,0 +1,88 @@
+/**
+ * @version		$Id: system.css 20196 2011-01-09 02:40:25Z ian $
+ * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/* System Messages */
+#system-message    { margin: 0; padding: 0;}
+#system-message dt { margin: 0; font-weight: bold;  display: none; }
+#system-message dd { margin: 0; font-weight: bold; text-indent: 30px; }
+#system-message dd ul { margin: 0; color: #0055BB; background-position: 4px top; background-repeat: no-repeat; margin-bottom: 10px; list-style: none; padding: 10px; border-top: 3px solid #84A7DB; border-bottom: 3px solid #84A7DB;}
+#system-message dd ul li{ line-height:1.5em }
+
+/* System Standard Messages */
+#system-message dd.message ul {
+	background-color: #C3D2E5;
+	background-image: url(../../images/notice-info.png);
+	background-position: 10px center;
+}
+
+/* System Error Messages */
+#system-message dd.error ul,
+#system-message dd.warning ul,
+#system-message dd.notice ul
+{
+	color: #c00;
+}
+
+#system-message dd.error ul {
+	background-color: #E6C0C0;
+	background-image: url(../../images/notice-alert.png);
+	background-position: 10px center;
+	border-top-color: #DE7A7B;
+	border-bottom-color: #DE7A7B;
+}
+
+/* System Warning Messages */
+#system-message dd.warning ul {
+	color: #c00;
+	background-color: #E6C8A6;
+	background-image: url(../../images/notice-note.png);
+	background-position: 10px center;
+	border-top-color: #FFBB00;
+	border-bottom-color: #FFBB00;
+}
+
+/* System Notice Messages */
+#system-message dd.notice ul {
+	color: #c00;
+	background-color: #EFE7B8;
+	background-image: url(../../images/notice-note.png);
+	background-position: 10px center;
+	border-top-color: #F0DC7E;
+	border-bottom-color: #F0DC7E;
+}
+/* Extra */
+.tx_red {
+    border-color: #CC0000 !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/*** Note message ***/
+#system-message dd.notemess ul {
+    background-color: transparent;
+    background-image: url("../../images/notice_trans.png");
+    background-position: 10px center;
+    border: 1px solid #fff;
+    margin-bottom: 0;
+    color: #333;
+}
+.notemess {
+background: #e2e2e2; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UyZTJlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNGY0ZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #e2e2e2 0%, #f4f4f4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(100%,#f4f4f4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e2e2e2 0%,#f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e2e2e2 0%,#f4f4f4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e2e2e2 0%,#f4f4f4 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e2e2e2 0%,#f4f4f4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-8 */
+    float: none;
+    margin: 15px auto 0 !important;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+}

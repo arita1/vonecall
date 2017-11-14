@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>vikram</ns1:userId><ns1:password>acacia2013</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:GetCarrierInfoByMobileNumber><ns1:mobile>529991110365</ns1:mobile></ns1:GetCarrierInfoByMobileNumber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCarrierInfoByMobileNumberResponse xmlns="http://www.pininteract.com"><GetCarrierInfoByMobileNumberResult responseCode="000"><carrier carrierId="89" carrierName="iusacell" category="Rtr" countryCode="MX" currencyCode="MXN" productId="89" operator="27" denominationType="Variable"><skus><sku skuId="273" productName="iusacell" denomination="0.01" minAmount="4.00" maxAmount="75.00" discount="6.00" category="Rtr" isSalesTaxCharged="false" exchangeRate="0" bonusAmount="0" currencyCode="MXN" carrierName="iusacell" countryCode="MX" localPhoneNumberLength="10" internationalCodes="52 521" allowDecimal="false" /></skus></carrier></GetCarrierInfoByMobileNumberResult></GetCarrierInfoByMobileNumberResponse></soap:Body></soap:Envelope>
+

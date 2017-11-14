@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>rydtech</ns1:userId><ns1:password>Reyhko25</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:PurchasePin><ns1:skuId>196</ns1:skuId><ns1:quantity>1</ns1:quantity><ns1:corelationId>2069739880</ns1:corelationId></ns1:PurchasePin></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><PurchasePinResponse xmlns="http://www.pininteract.com"><orderResponse version="1.0" responseCode="007" responseMessage="The Sku  is out of stock" xmlns="urn:pininteract.com" /></PurchasePinResponse></soap:Body></soap:Envelope>
+

@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+/*Contact page*/
+.form_contact span.required {display: none; }
+
+/*Rates*/
+.bg_list_box select option, .bg_list_box1 select option, .bg_list_box2 select option {background: #fff; color: #000; }
+
+/*Header*/
+.choose_lang a {background: transparent; }
+
+.loading {background: url('../images/loading.gif') center center no-repeat; opacity: 1;}
+.loading * {opacity: .8;}
+
+div.pag { text-align: center; margin: 10px auto; }
+div.pag ul { margin: 0 auto; display: inline-block; }
+
+
+
+
+div.flash-error, div.flash-notice, div.flash-success {
+    border: 2px solid #DDDDDD;
+    margin: 1em 0;
+    padding: 0.8em;
+    width: 76%;
+}
+div.flash-error {
+    background: none repeat scroll 0 0 #FBE3E4;
+    border-color: #FBC2C4;
+    color: #8A1F11;
+    width: 76%;
+}
+div.flash-notice {
+    background: none repeat scroll 0 0 #FFF6BF;
+    border-color: #FFD324;
+    color: #514721;
+}
+div.flash-success {
+    background: none repeat scroll 0 0 #E6EFC2;
+    border-color: #C6D880;
+    color: #264409;
+}
+div.flash-error a {
+    color: #8A1F11;
+}
+div.flash-notice a {
+    color: #514721;
+}
+div.flash-success a {
+    color: #264409;
+}
+
+.choose_lang { z-index: 999; }
+
+.pag ul li.selected a{ background:url(../images/bg_pt_o.jpg) no-repeat; color:#fff; text-decoration:none;}
+
+div.pag:after,
+div.divtable:after,
+div.pag ul:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
+
+/*==============================================CLISTVIEW=================================================*/
+.list-view-loading { background: url("../images/loading.gif") no-repeat scroll center center transparent !important;  }
+
+.menu_reseller_login { padding-left: 100px;  width: 120px;}	
+.menu_reseller_login.admin { width: 205px; padding-left: 0px;}
+.errorSummary ul { color: red; }
+
+.box_makepayment .errorMessage { color: red; width: 230px; float: right; margin-top: 4px;}

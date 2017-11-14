@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@media all
+{
+  #nav_main { width:1186px; float: left; display: inline; background:transparent; line-height: 0; height:45px;}
+
+  #nav_main ul { background:url(../../images/line_nav_left.jpg) no-repeat right; display: inline;float: left; margin: 0; padding: 0;}
+
+  #nav_main ul li { background:url(../../images/line_nav_left.jpg) no-repeat left; display: inline; width:160px; float: left; font-size:13px; line-height: 13px; list-style-type: none; margin: 0; padding: 0; text-transform:uppercase; position:relative;}
+
+  #nav_main ul li a,
+  #nav_main ul li strong { background: transparent; color: #fff; display: block; font-size: 12px; font-weight:700; margin: 0; padding: 1.2em 0em 1.2em 0em; text-decoration: none; text-align:center;  line-height: 18px}
+  #nav_main ul li a span{ background:url(../../images/bulet_nav.png) no-repeat right 5px; padding-right:18px;}
+  
+  /* harck IE7, IE9 */
+  :root #nav_main ul li a { padding: 1.2em 0em 1.2em 0em; width:182px\0/IE9;}
+  *+html #nav_main ul li a { padding: 1.2em 0em 1.2em 0em; width:182px;}
+
+
+  #nav_main ul li a:focus,
+  #nav_main ul li a:hover,
+  #nav_main ul li a:active,#nav_main ul li.hover a { background: transparent; color: #ffca00; text-decoration: none; outline:none;}
+  #nav_main ul li a:hover span{ background:url(../../images/bulet_nav_o.png) no-repeat right 5px; padding-right:18px;}
+  #nav_main ul li.hover span {  background:url(../../images/bulet_nav_o.png) no-repeat right 5px; color: #ffca00; text-decoration: none;}
+
+  #nav_main ul li.current { background:transprent;}
+
+  #nav_main ul li.current strong,
+  #nav_main ul li.current a,
+  #nav_main ul li.current a:focus,
+  #nav_main ul li.current a:hover,
+  #nav_main ul li.current a:active { background: transparent; color: #ffca00; text-decoration: none;outline:none;}
+  #nav_main ul li.current span{ background:url(../../images/bulet_nav_o.png) no-repeat right 5px; padding-right:18px;}
+  
+  
+  #nav_main ul li ul.nav-2{ display:none; background:#4a899a; margin:0; padding:0; position:absolute; top:44px; left:0px; z-index:50000; border-left: 1px #2e626d solid; border-right: 1px #2e626d solid;}
+  #nav_main ul li:hover ul.nav-2{ display:block;}
+  #nav_main ul li:hover ul.nav-2 li{ display:block; margin:0; width:200px; text-transform:none; border-top:1px solid #68a2b0; border-bottom:1px solid #356370; border-left:none; border-right:none; background:url(../../images/bulet_nav1.png) no-repeat 10px 11px; padding-left:10px;}
+  #nav_main ul li:hover ul.nav-2 li a{ display:block; font-size:13px; text-decoration:none; font-weight:normal; color:#ffcf00; padding:6px 15px; text-align:left;outline:none;}
+  #nav_main ul li:hover ul.nav-2 li a:hover{ display:block; text-decoration:none; font-weight:normal; color:#fff; padding:6px 15px;}
+  
+  .nav_home{ background:url(../../images/line_nav_left.jpg) no-repeat left; width:66px; float:left; height:45px;}
+  .nav_home img{ padding:13px 17px}
+  .nav_home img a{ background:transparent;}
+  .nav_home img a:hover{ background:transparent;}
+}

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><index>
+<settings
+		bannerWidth = "980"
+		bannerHeight = "427"
+		bannerHorizontalMargin = "0"
+		bannerVerticalMargin = "0"
+		bannerBackGroundAlpha = "100"
+		bannerBackGroundColor = "0x090f14"
+
+		displayMenu = "no"
+		displayInfos = "no"
+		displayButtonNextPrev = "no"
+		displayButtonSlideshow = "no"
+
+		menuXposition = "720"
+		menuYposition = "320"
+		menuButtonsSpace = "3"
+		menuButtonsVisible = "4"
+		menuOrientation = "horizontal"
+
+		buttonNextXposition = "802"
+		buttonNextYpoistion = "180"
+		buttonPrevXposition = "28"
+		buttonPrevYposition = "180"
+		buttonSlideshowXposition = "28"
+		buttonSlideshowYposition = "28"
+		buttonsIconColor = ""
+		buttonsBackGroundColor = "0xffcc00"
+		buttonsRotate = "no"
+
+		slideshowAutostart = "yes"
+		slideshowAnimationIconColor = "0x0e171f"
+		slideshowAnimationBackGroundColor = "0xffffff"
+
+		transitionType = "1"
+		transitionEasingDuration = "2"
+		transitionEasingType = "easeInOutExpo"
+
+		infosXposition = "0"
+		infosYposition = "270"
+		infosWidth = "500"
+		infosHeight = "70"
+		infosBackGroundAlpha = "80"
+		infosBackGroundColor = "0x0e171f"
+
+		titleXposition = "10"
+		titleYposition = "10"
+		titleWidth = "480"
+		titleTextAlign = "left"
+
+		descriptionXposition = "10"
+		descriptionYposition = "30"
+		descriptionWidth = "480"
+		descriptionTextAlign = "left"
+
+		preloaderXposition = "-1000"
+		preloaderYpoistion = "28"
+	/>	<items>
+		<item>
+			<itemSettings
+				buttonsIconColor = ""
+				buttonsBackGroundColor = "0xffcc00"
+				infoBackGroundColor = ""
+				slideshowInterval = "7"
+				slideshowAnimationIconColor = "0x0e171f"
+				slideshowAnimationBackGroundColor = "0xffffff"
+				targetLink = ""
+			/>
+			<file>swf/large/1.png</file>
+			<title><![CDATA[Click the preview image below or download ]]></title>
+			<description><![CDATA[Recently compiled a list of the 19 most popular fonts according to usage by graphic designers from all over the web]]></description>
+			<link><![CDATA[]]></link>
+		</item>
+		<item>
+			<itemSettings
+				buttonsIconColor = ""
+				buttonsBackGroundColor = "0xffcc00"
+				infoBackGroundColor = "0xf97dfe"
+				slideshowInterval = "7"
+				slideshowAnimationIconColor = "0x0e171f"
+				slideshowAnimationBackGroundColor = "0xffffff"
+				targetLink = ""
+			/>
+			<file>swf/large/2.png</file>
+			<title><![CDATA[You may love some of these combinations ]]></title>
+			<description><![CDATA[Recently compiled a list of the 19 most popular fonts according to usage by graphic designers from all over the web]]></description>
+			<link><![CDATA[]]></link>
+		</item>
+
+	</items>
+</index>

@@ -1,0 +1,7 @@
+Request 
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.pininteract.com"><SOAP-ENV:Header><ns1:AuthenticationHeader><ns1:userId>rydtech</ns1:userId><ns1:password>Reyhko25</ns1:password></ns1:AuthenticationHeader></SOAP-ENV:Header><SOAP-ENV:Body><ns1:PurchaseRtr2><ns1:skuId>1900</ns1:skuId><ns1:amount>50</ns1:amount><ns1:mobile>16128407095</ns1:mobile><ns1:corelationId></ns1:corelationId><ns1:senderMobile></ns1:senderMobile><ns1:storeId></ns1:storeId></ns1:PurchaseRtr2></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><PurchaseRtr2Response xmlns="http://www.pininteract.com"><orderResponse version="1.0" responseCode="022" responseMessage="The specified Sku 1900 is either does not exists or has been discontinued. Please contract customer support" xmlns="urn:pininteract.com" /></PurchaseRtr2Response></soap:Body></soap:Envelope>
+
